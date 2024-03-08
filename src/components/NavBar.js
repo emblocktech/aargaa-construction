@@ -30,7 +30,7 @@ const NavBarWrap = styled.div`
     }
 
     @media screen and (max-width:450px) {
-        width: ${({open}) => (open ? "140px" : "0px")};
+        width: ${({open}) => (open ? "160px" : "0px")};
     }
 `
 
