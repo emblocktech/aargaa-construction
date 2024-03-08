@@ -16,7 +16,7 @@ export default function Service() {
         <NavBar>
             <Grid>
                 <Grid.Row textAlign="center">
-                    <motion.img src="/gallery/all/RV3-MBR-V10.webp" style={{ height: "270px", width: "100%", filter: "brightness(0.5)" }} />
+                    <motion.img src="/gallery/all/RV3-MBR-V10.webp" style={{ height: "70vh", width: "100%", filter: "brightness(0.5)" }} />
                     <div className="content-center">
                         <Header as="h1" className="constructionManagementH1" >Construction Management</Header>
                     </div>

@@ -65,7 +65,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="footer-cp">
-                <div className="content-center-flex copyRightDiv">Copyright © 2024 is proudly powered by EMBLOCK</div>
+                <div className="content-center-flex copyRightDiv">Copyright © 2024 | Powered by EMBLOCK</div>
                 <div className="content-center-flex">
                     <a className="footer-icons" href={""}><FontAwesomeIcon icon={faFacebookF} size="2xl" /></a>
                     <a className="footer-icons" href={""}><FontAwesomeIcon icon={faInstagram} size="2xl" /></a>

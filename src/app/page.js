@@ -61,7 +61,7 @@ export default function Home() {
             <motion.img initial={{ y: 0, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: 0, opacity: 1 }} transition={{ duration: 1, type: "spring" }} src="/gallery/all/ELEVATION-10-V4.jpeg.webp" style={{ height: "100vh", width: "100%" }} />
             <div className="content-center">
               <motion.div initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} exit={{ y: 0, opacity: 1 }} transition={{ duration: 1, type: "spring", delay: 1 }}>
-                <Header as="h1" id="main-title">AARGAA CONSTRUCTIONS</Header>
+                <Header as="h1" id="main-title">AARGAA CONSTRUCTIONS PRIVATE LIMITED</Header>
                 <p id="main-title-paragraph">A multi disciplined construction firm, serves a variety of industries and project types.</p>
                 <LearnButton size="large" onClick={() => pushAbout()} className="learn-more">LEARN MORE</LearnButton>
               </motion.div>
@@ -93,7 +93,7 @@ export default function Home() {
             <Header className="serviceshead" as={"h1"}>Our Services</Header>
             <div className="flex-cl-spe">
               <motion.div initial={{ opacity: 0, scale: 0, borderRadius: 0 }} whileInView={{ opacity: 1, scale: 1, borderRadius: 5 }} exit={{ opacity: 1, scale: 0, borderRadius: 5 }} transition={{ duration: 1, type: "spring", delay: 0 }} className="service-card">
-                <img src="/gallery/all/Pratica-V3.webp" className="service-card-img" />
+                <img src="/gallery/all/Residential_1.jpg" className="service-card-img" />
                 <div style={{ margin: "10px" }}>
                   <Header className="servicesboxhead">Residential</Header>
                   <p className="boxdesc">A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -101,7 +101,7 @@ export default function Home() {
                 </div>
               </motion.div>
               <motion.div initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} exit={{ opacity: 1, scale: 0 }} transition={{ duration: 1, type: "spring", delay: 0.3 }} className="service-card">
-                <img src="/gallery/all/FF BEDROOM-2-1.webp" className="service-card-img" />
+                <img src="/gallery/all/office.jpg" className="service-card-img" />
                 <div style={{ margin: "10px" }}>
                   <Header className="servicesboxhead">Corporate / Office</Header>
                   <p className="boxdesc">A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -109,7 +109,7 @@ export default function Home() {
                 </div>
               </motion.div>
               <motion.div initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} exit={{ opacity: 1, scale: 0 }} transition={{ duration: 1, type: "spring", delay: 0.6 }} className="service-card">
-                <img src="/gallery/all/GF-BEDROOM-1.webp" className="service-card-img" />
+                <img src="/gallery/all/parks.jpg" className="service-card-img" />
                 <div style={{ margin: "10px" }}>
                   <Header className="servicesboxhead">Parks & Open Spaces</Header>
                   <p className="boxdesc">A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -119,7 +119,7 @@ export default function Home() {
             </div>
             <div className="flex-cl-spe">
               <motion.div initial={{ x: -150, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} exit={{ x: 0, opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.5 }} className="service-card">
-                <img src="/gallery/all/RV1-ELEVATION-6-V3-2.webp" className="service-card-img" />
+                <img src="/gallery/all/Restaurant.jpg" className="service-card-img" />
                 <div style={{ margin: "10px" }}>
                   <Header className="servicesboxhead">Restaurant & Hotels</Header>
                   <p className="boxdesc">A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -127,7 +127,7 @@ export default function Home() {
                 </div>
               </motion.div>
               <motion.div initial={{ y: 30, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} exit={{ y: 0, opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.5 }} className="service-card">
-                <img src="/gallery/all/RV3-BEDROOM-V6.webp" className="service-card-img" />
+                <img src="/gallery/all/shopping.jpg" className="service-card-img" />
                 <div style={{ margin: "10px" }}>
                   <Header className="servicesboxhead">Shopping</Header>
                   <p className="boxdesc">A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -135,7 +135,7 @@ export default function Home() {
                 </div>
               </motion.div>
               <motion.div initial={{ x: 150, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} exit={{ x: 0, opacity: 1 }} transition={{ duration: 2, type: "spring", delay: 0.5 }} className="service-card">
-                <img src="/gallery/all/RV3-HOTEL-V2.webp" className="service-card-img" />
+                <img src="/gallery/all/culture.jpeg" className="service-card-img" />
                 <div style={{ margin: "10px" }}>
                   <Header className="servicesboxhead">Culture Centres</Header>
                   <p className="boxdesc">A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>

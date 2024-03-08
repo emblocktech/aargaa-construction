@@ -52,7 +52,7 @@ export default function Contact() {
         <NavBar>
             <Grid>
                 <Grid.Row textAlign="center">
-                    <motion.img src="/gallery/all/RV4-Hotel Interior-V3.webp" style={{ height: "270px", width: "100%", filter: "brightness(0.5)" }} />
+                    <motion.img src="/gallery/all/RV4-Hotel Interior-V3.webp" style={{ height: "70vh", width: "100%", filter: "brightness(0.5)" }} />
                     <div className="content-center">
                         <Header as="h1" className="constructionManagementH1" style={{ color: "beige !important" }}>Contact</Header>
                     </div>
@@ -63,7 +63,7 @@ export default function Contact() {
                 <div className="flex-cl-spe-c">
                     <motion.div initial={{ opacity: 0, scale: 0, borderRadius: 0 }} whileInView={{ opacity: 1, scale: 1, borderRadius: 5 }} exit={{ opacity: 1, scale: 0, borderRadius: 5 }} transition={{ duration: 1, type: "spring", delay: 0 }} className="contact-card">
                         <img src="/gallery/all/Electrical Shop-R2.webp" className="contact-card-img" />
-                        <div style={{ padding: "20px", display: "flex", justifyContent: "space-evenly" }}>
+                        <div style={{ padding: "10px", display: "flex", justifyContent: "space-evenly" }}>
                             <div className="content-center-flex">
                                 <Icon size="big" name="map marker alternate" />
                             </div>
@@ -81,7 +81,7 @@ export default function Contact() {
                     </motion.div>
                     <motion.div initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} exit={{ opacity: 1, scale: 0 }} transition={{ duration: 1, type: "spring", delay: 0.3 }} className="contact-card">
                         <img src="/gallery/all/RV1-ROHITHA-HERITAGE-V4.webp" className="contact-card-img" />
-                        <div style={{ padding: "20px", display: "flex", justifyContent: "space-evenly" }}>
+                        <div style={{ padding: "10px", display: "flex", justifyContent: "space-evenly" }}>
                             <div className="content-center-flex">
                                 <Icon size="big" name="mail" />
                             </div>
@@ -99,7 +99,7 @@ export default function Contact() {
                     </motion.div>
                     <motion.div initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} exit={{ opacity: 1, scale: 0 }} transition={{ duration: 1, type: "spring", delay: 0.6 }} className="contact-card">
                         <img src="/gallery/all/RV1-ELEVATION-6-V2.webp" className="contact-card-img" />
-                        <div style={{ padding: "20px", display: "flex", justifyContent: "space-evenly" }}>
+                        <div style={{ padding: "10px", display: "flex", justifyContent: "space-evenly" }}>
                             <div className="content-center-flex">
                                 <Icon size="big" name="phone square" />
                             </div>

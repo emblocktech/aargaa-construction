@@ -10,7 +10,7 @@ export default function Project() {
         <NavBar>
             <Grid>
                 <Grid.Row textAlign="center">
-                    <img src="/images/LIVING-1_crop.jpg" style={{ filter: "brightness(0.5)" }} className="project-home-img" />
+                    <img src="/images/LIVING-1_crop.jpg" style={{ height: "70vh", filter: "brightness(0.5)" }} className="project-home-img" />
                     <div className="content-center">
                         <Header as="h1" className="constructionManagementH1" >Project</Header>
                     </div>

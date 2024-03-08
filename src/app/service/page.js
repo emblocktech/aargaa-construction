@@ -16,7 +16,7 @@ export default function Service() {
         <NavBar>
             <Grid>
                 <Grid.Row textAlign="center">
-                    <img src="/gallery/all/RV3-MBR-V11.webp" style={{ height: "270px", width: "100%", filter: "brightness(0.5)" }} />
+                    <img src="/gallery/all/RV3-MBR-V11.webp" style={{ height: "70vh", width: "100%", filter: "brightness(0.5)" }} />
                     <div className="content-center">
                         <Header as="h1" className="constructionManagementH1" >Service</Header>
                     </div>
@@ -30,7 +30,7 @@ export default function Service() {
                     </div>
                     <div className="flex-cl-spe ServiceGridRow" style={{ textAlign: "center" }}>
                         <motion.div initial={{ opacity: 0, scale: 0, borderRadius: 0 }} whileInView={{ opacity: 1, scale: 1, borderRadius: 5 }} exit={{ opacity: 1, scale: 0, borderRadius: 5 }} transition={{ duration: 1, type: "spring", delay: 0 }} className="service-card">
-                            <img src="/gallery/all/8-PATHWAY.webp" className="service-card-img" />
+                            <img src="/gallery/all/Residential_1.jpg" className="service-card-img" />
                             <div className="serviceContent" style={{ margin: "10px" }}>
                                 <Header>Residential</Header>
                                 <p>A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -38,7 +38,7 @@ export default function Service() {
                             </div>
                         </motion.div>
                         <motion.div initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} exit={{ opacity: 1, scale: 0 }} transition={{ duration: 1, type: "spring", delay: 0.3 }} className="service-card">
-                            <img src="/gallery/all/ELEVATION-10-V3.jpeg.webp" className="service-card-img" />
+                            <img src="/gallery/all/office.jpg" className="service-card-img" />
                             <div className="serviceContent" style={{ margin: "10px" }}>
                                 <Header>Corporate / Office</Header>
                                 <p>A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -46,7 +46,7 @@ export default function Service() {
                             </div>
                         </motion.div>
                         <motion.div initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} exit={{ opacity: 1, scale: 0 }} transition={{ duration: 1, type: "spring", delay: 0.6 }} className="service-card">
-                            <img src="/gallery/all/Pratica-V3.webp" className="service-card-img" />
+                            <img src="/gallery/all/parks.jpg" className="service-card-img" />
                             <div className="serviceContent" style={{ margin: "10px" }}>
                                 <Header>Parks & Open Spaces</Header>
                                 <p>A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -56,7 +56,7 @@ export default function Service() {
                     </div>
                     <div className="flex-cl-spe ServiceGridRow" style={{ textAlign: "center" }}>
                         <motion.div initial={{ x: -50, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} exit={{ x: 0, opacity: 1 }} transition={{ duration: 1, type: "spring", delay: 0.5 }} className="service-card">
-                            <img src="/gallery/all/IMG_20230913_075759_812.webp" className="service-card-img" />
+                            <img src="/gallery/all/Restaurant.jpg" className="service-card-img" />
                             <div className="serviceContent" style={{ margin: "10px" }}>
                                 <Header>Restaurant & Hotels</Header>
                                 <p>A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -64,7 +64,7 @@ export default function Service() {
                             </div>
                         </motion.div>
                         <motion.div initial={{ y: 30, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} exit={{ y: 0, opacity: 1 }} transition={{ duration: 1, type: "spring", delay: 0.5 }} className="service-card">
-                            <img src="/gallery/all/RV3-BEDROOM-V5.webp" className="service-card-img" />
+                            <img src="/gallery/all/shopping.jpg" className="service-card-img" />
                             <div className="serviceContent" style={{ margin: "10px" }}>
                                 <Header>Shopping</Header>
                                 <p>A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -72,7 +72,7 @@ export default function Service() {
                             </div>
                         </motion.div>
                         <motion.div initial={{ x: 50, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} exit={{ x: 0, opacity: 1 }} transition={{ duration: 1, type: "spring", delay: 0.5 }} className="service-card">
-                            <img src="/gallery/all/ELEVATION-10-V1-0-01.jpeg.webp" className="service-card-img" />
+                            <img src="/gallery/all/culture.jpeg" className="service-card-img" />
                             <div className="serviceContent" style={{ margin: "10px" }}>
                                 <Header>Culture Centres</Header>
                                 <p>A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -139,7 +139,7 @@ export default function Service() {
                             <p><Icon name="hand point right" />KITCHENETTE WARDROBES & FURNISHINGS</p>
                         </Grid.Column>
                     </Grid.Row>
-                    <Grid.Row style={{ display: "grid" }}>
+                    <Grid.Row className="servicesVasthuLast" style={{ display: "grid" }}>
                         <p>Support every project with a specialized approach. Discover how AARGAA can help accomplish your project goals.</p>
                         <p>Aargaa support is based on each client’s specific needs and project requirements by providing effective project leadership. We design spaces that inspire people to live and work at their best. </p>
                         <p>Specification of materials and types of constructions are  foundation, Basement, Brick Work,  Reinforcement, wood work, flooring , kitchen amenities, toilets, plumbing, electrical, painting. </p>
