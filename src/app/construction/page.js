@@ -16,7 +16,7 @@ export default function Service() {
         <NavBar>
             <Grid>
                 <Grid.Row textAlign="center">
-                    <motion.img src="/images/LIVING-1_crop.jpg" style={{ height: "270px", width: "100%", filter: "brightness(0.5)" }} />
+                    <motion.img src="/gallery/all/RV3-MBR-V10.webp" style={{ height: "270px", width: "100%", filter: "brightness(0.5)" }} />
                     <div className="content-center">
                         <Header as="h1" className="constructionManagementH1" >Construction Management</Header>
                     </div>
@@ -34,12 +34,12 @@ export default function Service() {
                             <p> AARGAA maintains databases of historical and current local, national, and international construction and engineering cost figures including labor, material, and equipment costs. AARGAA is equipped to prepare cost estimates and/or verify proposed construction costs at various stages throughout the construction process for projects around the world. By identifying and analyzing the project’s scope, time, cost, quality, and performance, AARGAA develops an accurate assessment of how the construction process is unfolding over the course of its duration.</p>
                         </Grid.Column>
                         <Grid.Column className="ccebColumn">
-                            <motion.img src="/images/LIVING-1.jpg" className="main-page-img" initial={{ scale: 0, borderRadius: 0 }} whileInView={{ scale: 1, borderRadius: 10 }} exit={{ scale: 1, borderRadius: 10 }} transition={{ duration: 1, type: "spring" }}></motion.img>
+                            <motion.img src="/gallery/all/RV2-Home Interior - 5.webp" className="main-page-img" initial={{ scale: 0, borderRadius: 0 }} whileInView={{ scale: 1, borderRadius: 10 }} exit={{ scale: 1, borderRadius: 10 }} transition={{ duration: 1, type: "spring" }}></motion.img>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row className="content-center-middle" style={{}}>
                         <Grid.Column className="ccebColumn">
-                            <motion.img src="/images/LIVING-1.jpg" className="main-page-img" initial={{ scale: 0, borderRadius: 0 }} whileInView={{ scale: 1, borderRadius: 10 }} exit={{ scale: 1, borderRadius: 10 }} transition={{ duration: 1, type: "spring" }}></motion.img>
+                            <motion.img src="/gallery/all/RV2-Pratica-V3.webp" className="main-page-img" initial={{ scale: 0, borderRadius: 0 }} whileInView={{ scale: 1, borderRadius: 10 }} exit={{ scale: 1, borderRadius: 10 }} transition={{ duration: 1, type: "spring" }}></motion.img>
                         </Grid.Column>
                         <Grid.Column className="ccebColumn">
                             <Header className="ccebColumnH1Color">CONSTRUCTION MANAGEMENT</Header>
@@ -55,7 +55,7 @@ export default function Service() {
             </Container>
             <div className="content-center-middle">
                 <div style={{ position: "relative", display: "inline-block" }}>
-                    <img src="/images/LIVING-1.jpg" style={{ height: "270px", width: "1700px", filter: "brightness(0.5)" }} />
+                    <img src="/gallery/all/RV3-MBR-V3.webp" style={{ height: "270px", width: "1700px", filter: "brightness(0.5)" }} />
                     <Header className="content-center" as="h1" style={{ color: "white" }}>Construction Management</Header>
                 </div>
             </div>
@@ -73,7 +73,7 @@ export default function Service() {
                             </Grid.Row>
                         </Grid.Column>
                         <Grid.Column className="ccebColumn">
-                            <motion.img src="/images/LIVING-1.jpg" id="constructionLastImg" className="main-page-img"  initial={{ scale: 0, borderRadius: 0 }} whileInView={{ scale: 1, borderRadius: 10 }} exit={{ scale: 1, borderRadius: 10 }} transition={{ duration: 1, type: "spring" }}></motion.img>
+                            <motion.img src="/gallery/all/Pratica-V3.webp" id="constructionLastImg" className="main-page-img" initial={{ scale: 0, borderRadius: 0 }} whileInView={{ scale: 1, borderRadius: 10 }} exit={{ scale: 1, borderRadius: 10 }} transition={{ duration: 1, type: "spring" }}></motion.img>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row>

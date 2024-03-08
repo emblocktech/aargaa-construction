@@ -16,7 +16,7 @@ export default function Service() {
         <NavBar>
             <Grid>
                 <Grid.Row textAlign="center">
-                    <img src="/images/LIVING-1_crop.jpg" style={{ height: "270px", width: "100%", filter: "brightness(0.5)" }} />
+                    <img src="/gallery/all/RV3-MBR-V11.webp" style={{ height: "270px", width: "100%", filter: "brightness(0.5)" }} />
                     <div className="content-center">
                         <Header as="h1" className="constructionManagementH1" >Service</Header>
                     </div>
@@ -30,7 +30,7 @@ export default function Service() {
                     </div>
                     <div className="flex-cl-spe ServiceGridRow" style={{ textAlign: "center" }}>
                         <motion.div initial={{ opacity: 0, scale: 0, borderRadius: 0 }} whileInView={{ opacity: 1, scale: 1, borderRadius: 5 }} exit={{ opacity: 1, scale: 0, borderRadius: 5 }} transition={{ duration: 1, type: "spring", delay: 0 }} className="service-card">
-                            <img src="/images/LIVING-1.jpg" className="service-card-img" />
+                            <img src="/gallery/all/8-PATHWAY.webp" className="service-card-img" />
                             <div className="serviceContent" style={{ margin: "10px" }}>
                                 <Header>Residential</Header>
                                 <p>A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -38,7 +38,7 @@ export default function Service() {
                             </div>
                         </motion.div>
                         <motion.div initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} exit={{ opacity: 1, scale: 0 }} transition={{ duration: 1, type: "spring", delay: 0.3 }} className="service-card">
-                            <img src="/images/LIVING-1.jpg" className="service-card-img" />
+                            <img src="/gallery/all/ELEVATION-10-V3.jpeg.webp" className="service-card-img" />
                             <div className="serviceContent" style={{ margin: "10px" }}>
                                 <Header>Corporate / Office</Header>
                                 <p>A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -46,7 +46,7 @@ export default function Service() {
                             </div>
                         </motion.div>
                         <motion.div initial={{ opacity: 0, scale: 0 }} whileInView={{ opacity: 1, scale: 1 }} exit={{ opacity: 1, scale: 0 }} transition={{ duration: 1, type: "spring", delay: 0.6 }} className="service-card">
-                            <img src="/images/LIVING-1.jpg" className="service-card-img" />
+                            <img src="/gallery/all/Pratica-V3.webp" className="service-card-img" />
                             <div className="serviceContent" style={{ margin: "10px" }}>
                                 <Header>Parks & Open Spaces</Header>
                                 <p>A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -56,7 +56,7 @@ export default function Service() {
                     </div>
                     <div className="flex-cl-spe ServiceGridRow" style={{ textAlign: "center" }}>
                         <motion.div initial={{ x: -50, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} exit={{ x: 0, opacity: 1 }} transition={{ duration: 1, type: "spring", delay: 0.5 }} className="service-card">
-                            <img src="/images/LIVING-1.jpg" className="service-card-img" />
+                            <img src="/gallery/all/IMG_20230913_075759_812.webp" className="service-card-img" />
                             <div className="serviceContent" style={{ margin: "10px" }}>
                                 <Header>Restaurant & Hotels</Header>
                                 <p>A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -64,7 +64,7 @@ export default function Service() {
                             </div>
                         </motion.div>
                         <motion.div initial={{ y: 30, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} exit={{ y: 0, opacity: 1 }} transition={{ duration: 1, type: "spring", delay: 0.5 }} className="service-card">
-                            <img src="/images/LIVING-1.jpg" className="service-card-img" />
+                            <img src="/gallery/all/RV3-BEDROOM-V5.webp" className="service-card-img" />
                             <div className="serviceContent" style={{ margin: "10px" }}>
                                 <Header>Shopping</Header>
                                 <p>A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -72,7 +72,7 @@ export default function Service() {
                             </div>
                         </motion.div>
                         <motion.div initial={{ x: 50, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} exit={{ x: 0, opacity: 1 }} transition={{ duration: 1, type: "spring", delay: 0.5 }} className="service-card">
-                            <img src="/images/LIVING-1.jpg" className="service-card-img" />
+                            <img src="/gallery/all/ELEVATION-10-V1-0-01.jpeg.webp" className="service-card-img" />
                             <div className="serviceContent" style={{ margin: "10px" }}>
                                 <Header>Culture Centres</Header>
                                 <p>A residential building which provides more than half of its floor area for dwelling purposes. In other words, residential building provides sleeping accommodation with or without cooking or dining or both facilities.</p>
@@ -93,7 +93,7 @@ export default function Service() {
                                 </List>
                             </Grid.Column>
                             <Grid.Column className="content-center-middle servicesVasthuColumn servicesVasthuColumnImg">
-                                <motion.img src="/images/LIVING-1.jpg" className="main-page-img" initial={{ scale: 0, borderRadius: 0 }} whileInView={{ scale: 1, borderRadius: 10 }} exit={{ scale: 1, borderRadius: 10 }} transition={{ duration: 1, type: "spring" }}></motion.img>
+                                <motion.img src="/gallery/all/HOTEL VISHWAA - EXTERIOR -1.webp" className="main-page-img" initial={{ scale: 0, borderRadius: 0 }} whileInView={{ scale: 1, borderRadius: 10 }} exit={{ scale: 1, borderRadius: 10 }} transition={{ duration: 1, type: "spring" }}></motion.img>
                             </Grid.Column>
                         </Grid.Row>
                         <Grid.Row className="content-center-middle servicesVasthuRow" style={{ margin: "0px 6rem 0px 6rem" }}>
@@ -110,7 +110,7 @@ export default function Service() {
                                 <p><Icon name="hand point right" />STRUCTURAL PLANS, DETAILING, LAYOUTS</p>
                             </Grid.Column>
                             <Grid.Column className="servicesVasthuColumn servicesVasthuColumnImg">
-                                <motion.img src="/images/LIVING-1.jpg" className="main-page-img" initial={{ scale: 0, borderRadius: 0 }} whileInView={{ scale: 1, borderRadius: 10 }} exit={{ scale: 1, borderRadius: 10 }} transition={{ duration: 1, type: "spring" }}></motion.img>
+                                <motion.img src="/gallery/all/9-VANITY-1.webp" className="main-page-img" initial={{ scale: 0, borderRadius: 0 }} whileInView={{ scale: 1, borderRadius: 10 }} exit={{ scale: 1, borderRadius: 10 }} transition={{ duration: 1, type: "spring" }}></motion.img>
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
@@ -118,7 +118,7 @@ export default function Service() {
             </Container>
             <div className="content-center-middle" style={{ padding: "20px 0px 20px 0px" }}>
                 <div className="directorQuote" style={{ position: "relative", display: "inline-block" }}>
-                    <img src="/images/LIVING-1.jpg" style={{ height: "270px", width: "1700px", filter: "brightness(0.5)" }} />
+                    <img src="/gallery/all/RV3-MBR-V5.webp" style={{ height: "270px", width: "1700px", filter: "brightness(0.5)" }} />
                     {/* <Header className="content-center" as="h1">“We are reliable, trustworthy and we uphold the highest standards of integrity in all of our design.FIND YOUR DREAM BUILDINGS WITH US”– Balavenkatesh srinivasan -Director</Header> */}
                     <Header className="content-center" as="h1">“We are reliable, trustworthy and we uphold the highest standards of integrity in all of our design. FIND YOUR DREAM BUILDINGS WITH US”<br></br> <span className="directorName">– Balavenkatesh srinivasan -Director</span></Header>
                 </div>
@@ -127,7 +127,7 @@ export default function Service() {
                 <Grid style={{ padding: "20px 0px 20px 0px" }}>
                     <Grid.Row className="content-center-middle servicesVasthuRow" style={{ margin: "0px 6rem 0px 6rem" }}>
                         <Grid.Column className="servicesVasthuColumn servicesVasthuColumnImg">
-                            <motion.img src="/images/LIVING-1.jpg" className="main-page-img" initial={{ scale: 0, borderRadius: 0 }} whileInView={{ scale: 1, borderRadius: 10 }} exit={{ scale: 1, borderRadius: 10 }} transition={{ duration: 1, type: "spring" }}></motion.img>
+                            <motion.img src="/gallery/all/RV2-BRIGHT BILLBOARD-V (3).webp" className="main-page-img" initial={{ scale: 0, borderRadius: 0 }} whileInView={{ scale: 1, borderRadius: 10 }} exit={{ scale: 1, borderRadius: 10 }} transition={{ duration: 1, type: "spring" }}></motion.img>
                         </Grid.Column>
                         <Grid.Column className="servicesVasthuColumn">
                             <Header>PROVISIONS ON 3D</Header>
