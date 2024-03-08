@@ -415,11 +415,12 @@ p.whoweare-para {
 }
 
 .nav-logo {
-  height: 50px;
-  width: 8%;
+  height: 60px;
+  width: 120px;
   position: absolute;
   left: 10px;
-  padding: 10px;
+  padding-top: 20px;
+  z-index: 10;
 }
 
 .footer {

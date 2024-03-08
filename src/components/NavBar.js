@@ -69,8 +69,8 @@ export default function NavBar({ children }) {
 
     return (
         <div>
+            {<img className="nav-logo" src="/images/icon.png" style={{ opacity: 1 }} /> }
             <TopBar>
-                {<img className="nav-logo" src="/images/home-bk.jpg" style={{ opacity: 1 }} /> }
                 {<div><motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 1}} transition={{duration: 1, type: "spring"}}><NavButton open={state} onClick={() => setState(!state)}>{ state ? <Image src="/close.svg" width={50} height={50} alt=""  /> : <Image src="/menu.svg" width={50} height={50} alt="" />}</NavButton></motion.div></div>}
             </TopBar>
             <NavBarWrap open={state}>

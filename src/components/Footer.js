@@ -13,7 +13,7 @@ export default function Footer() {
                 <div className="footer-max">
                     <div id="footer-aargaaSec" className="content-center-middle padding-footer" style={{ width: "35%" }}>
                         <div>
-                            <img className="footer-logo" src="/images/home-bk.jpg"></img>
+                            <img className="footer-logo" src="/images/icon.png"></img>
                             <Header>Aargaa Construction</Header>
                             <p>
                                 We believe in design as a process. We research into creating a built environment that is adaptive and contextual. We see architecture as a language that speaks of the place.
