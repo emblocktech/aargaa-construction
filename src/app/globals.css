@@ -543,7 +543,7 @@ p.whoweare-para {
 }
 
 .slide-img {
-  height: 85%;
+  height: 400px;
   width: 600px;
 }
 
@@ -1013,7 +1013,7 @@ p.whoweare-para {
   }
 
   .slide-img {
-    height: 75%;
+    height: 350px;
     width: 500px;
     margin-top: 1rem;
   }
@@ -1209,7 +1209,7 @@ p.whoweare-para {
   }
 
   .slide-img {
-    height: 65%;
+    height: 250px;
     width: 400px;
     margin-top: 1rem;
   }
@@ -1460,7 +1460,7 @@ p.whoweare-para {
   }
 
   .slide-img {
-    height: 65%;
+    height: 180px;
     width: 270px;
     margin-top: 1rem;
   }
