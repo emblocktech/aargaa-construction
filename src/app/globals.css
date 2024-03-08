@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -181,7 +182,7 @@ a {
 }
 
 .nav-menu-label {
-  font-family: "The Seasons Bold", Helvetica, Arial, Lucida, sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   padding: 10px 0px 10px 25px;
   font-weight: 400;
   font-size: 18px;
@@ -395,12 +396,12 @@ a {
 
 .learn-more {
   color: beige !important;
-  font-family: "The Seasons Bold", Helvetica, Arial, Lucida, sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-size: 20px !important;
 }
 
 p {
-  font-family: "The Seasons Bold", Helvetica, Arial, Lucida, sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-size: 18px !important;
 }
 
@@ -411,14 +412,14 @@ p.whoweare-para {
 }
 
 .ui.header.whowearehead {
-  font-family: "The Seasons Bold", Helvetica, Arial, Lucida, sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-size: 30px !important;
   color: brown !important;
   margin-top: 2% !important;
 }
 
 .ui.header.serviceshead {
-  font-family: "The Seasons Bold", Helvetica, Arial, Lucida, sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   color: brown !important;
   font-size: 35px !important;
 }
@@ -596,6 +597,9 @@ p.whoweare-para {
 
 #constructionLastImg {
   margin-left: 0px !important;
+}
+.copyRightDiv {
+  font-size: 12px !important;
 }
 
 @media screen and (min-width: 769px) {
@@ -1241,7 +1245,7 @@ p.whoweare-para {
   }
 
   .service-card {
-    height: 500px;
+    height: 500px !important;
     width: 100%;
     display: grid;
     border: 2px solid #fcdc2a;
@@ -1775,13 +1779,13 @@ p.whoweare-para {
 
 .constructionManagementH1 {
   margin-top: 40px !important;
-  font-family: "The Seasons Bold", Helvetica, Arial, Lucida, sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   color: brown !important;
   font-size: 28px !important;
 }
 
 .ccebColumnH1Color {
-  font-family: "The Seasons Bold", Helvetica, Arial, Lucida, sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   color: brown !important;
 }
 
@@ -1925,6 +1929,10 @@ p.whoweare-para {
   .copyRightDiv {
     font-size: 12px !important;
   }
+  .servicesVasthuLast {
+    padding: 0 25px !important;
+    padding-bottom: 25px !important;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -1978,5 +1986,9 @@ p.whoweare-para {
     margin: 0;
     margin-left: 50px !important;
     padding-left: 40px !important;
+  }
+  .servicesVasthuLast {
+    padding: 0 25px !important;
+    padding-bottom: 25px !important;
   }
 }

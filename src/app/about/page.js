@@ -10,7 +10,7 @@ export default function About() {
         <NavBar>
             <Grid>
                 <Grid.Row textAlign="center">
-                    <motion.img src="/images/LIVING-1_crop.jpg" style={{ height: "270px", width: "100%", filter: "brightness(0.5)" }} />
+                    <motion.img src="/images/LIVING-1_crop.jpg" style={{ height: "70vh", width: "100%", filter: "brightness(0.5)" }} />
                     <div className="content-center">
                         <Header as="h1" className="constructionManagementH1">About</Header>
                     </div>
