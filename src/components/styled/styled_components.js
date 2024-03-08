@@ -6,9 +6,10 @@ export const LearnButton = styled(Button)`
   border: 1px solid grey !important;
   padding-top: 10px; 
   transition: all ease-in-out 0.2s !important;
+  background: #FCDC2A !important;
+  color: #1e1e1e1 !important;
+  border-radius: 2rem !important;
   &:hover {
-    background: #FCDC2A !important;
-    color: #1e1e1e1 !important;
-    border-radius: 2rem;
+   transform: scale(1.1);
   }
 `
